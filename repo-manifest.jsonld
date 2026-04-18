@@ -291,8 +291,9 @@
     {
       "@id": "https://repolex.ai/r/gruntjs/grunt-contrib-uglify/commit/e410511e11ad1307cee15bdc18682e569c63e2a0",
       "git:hexsha": "e410511e11ad1307cee15bdc18682e569c63e2a0",
-      "repolex:parseStatus": "pending",
-      "git:tagName": "v5.1.0"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v5.1.0",
+      "repolex:parsedAt": "2026-04-18T14:57:11.850539+00:00"
     },
     {
       "@id": "https://repolex.ai/r/gruntjs/grunt-contrib-uglify/commit/4a73c8aad6d937438d0ef7150576ed5281a68564",
