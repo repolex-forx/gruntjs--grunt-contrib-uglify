@@ -1,0 +1,14 @@
+[2026-04-18T15:09:57Z] === ENRICH ITERATION 1 START | repo=gruntjs/grunt-contrib-uglify sha=e410511e ===
+[2026-04-18T15:09:57Z] [iter=1] PHASE START: enrich repo=gruntjs/grunt-contrib-uglify sha=e410511e runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/e410511e-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/e410511e11ad1307cee15bdc18682e569c63e2a0.nq.gz
+[2026-04-18T15:10:01Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-04-18T15:10:03Z] [iter=1] AST store loaded triples=36599 load_secs=2 mem_mb=137 MB
+[2026-04-18T15:10:03Z] [iter=1] Step 2: Finding LSP targets mem_mb=137 MB
+[2026-04-18T15:10:03Z] [iter=1] LSP targets found call_sites=203 imports=0 extends=0 implements=0 secs=0
+[2026-04-18T15:10:03Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=137 MB
+[2026-04-18T15:10:03Z] [iter=1] Position index built positions=2652 nodes_with_types=2899 secs=0 mem_mb=137 MB
+[2026-04-18T15:10:03Z] [iter=1] Step 3: Starting LSP resolution mem_mb=137 MB already_completed_types=[] already_completed_files=0
+[2026-04-18T15:10:03Z] [iter=1] Resolving target type target_type=call_site count=203
+[2026-04-18T15:10:07Z] [iter=1] Target type resolved target_type=call_site resolved=17 errors=159 secs=4 mem_mb=137 MB
+[2026-04-18T15:10:09Z] [iter=1] Step 5: Writing final enrichment file triples=3740
+[2026-04-18T15:10:09Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/e410511e11ad1307cee15bdc18682e569c63e2a0.nq.gz size_kb=57
+[2026-04-18T15:10:09Z] [iter=1] PHASE END: enrich elapsed_s=12 elapsed_min=0.2 total_triples=3740
